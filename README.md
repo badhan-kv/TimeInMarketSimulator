@@ -8,7 +8,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 An interactive Python tool designed to simulate **Systematic Investment Plans (SIP)** using historical market data. This script helps visualize the power of long-term investing ("Time in the Market") versus trying to predict price movements.
 
-## ** Table of Contents**
+## **Table of Contents**
 * [Features](#features)
 * [Dependencies](#dependencies)
 * [Installation](#installation)
