@@ -1,5 +1,5 @@
 # Time In Market Simulator
-# Copyright (c) 2026 [Khushaldas Vasant Badhan]
+# Copyright (c) 2026 Khushaldas Vasant Badhan
 # Licensed under the MIT License
 
 
@@ -292,4 +292,5 @@ def main():
         print(f"\n❌ ERROR: {str(e)}")
 
 if __name__ == "__main__":
+
     main()
