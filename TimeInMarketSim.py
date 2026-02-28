@@ -9,10 +9,11 @@ import pandas as pd
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import calendar
+import time
 
 def get_ticker_info(isin):
     """Searches Yahoo Finance for the Ticker symbol associated with an ISIN."""
-    print(f"🔍 Searching for ISIN: {isin}...")
+    print(f" Searching for ISIN: {isin}...")
     url = f"https://query2.finance.yahoo.com/v1/finance/search?q={isin}"
     # Yahoo requires a User-Agent header for python scripts
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'} 
@@ -170,7 +171,7 @@ def plot_results(df, name, symbol, amount, freq_str):
         tickfont=dict(color="#64748b")
     )
     
-    print("\n📈 Opening interactive chart in your web browser...")
+    print("\n Opening interactive chart in your web browser...")
     fig.show()
 
 import time
@@ -185,7 +186,7 @@ def parse_date(date_str, default):
 
 def main():
     print("="*50)
-    print(" 🚀 Time In Market Simulator  ")
+    print("  Time In Market Simulator  ")
     print("="*50)
     
     # 1. Input ISIN
@@ -233,10 +234,10 @@ def main():
     try:
         # a. Map ISIN to Ticker
         symbol, name = get_ticker_info(isin)
-        print(f"✅ Found: {name} ({symbol})")
+        print(f" Found: {name} ({symbol})")
         
         # b. Fetch Historical Data (Daily intervals)
-        print(f"📥 Fetching daily historical data from {start_date} to {end_date}...")
+        print(f" Fetching daily historical data from {start_date} to {end_date}...")
         try:
             ticker = yf.Ticker(symbol)
             hist_data = ticker.history(start=start_date, end=end_date, interval="1d")
@@ -244,7 +245,7 @@ def main():
             err_msg = str(data_err).lower()
             if 'ssl' in err_msg or 'certificate' in err_msg or 'curl' in err_msg:
                 print("\n" + "!" * 80)
-                print(" 🔒 CORPORATE NETWORK DETECTED: SSL Certificate Verification Failed")
+                print("  CORPORATE NETWORK DETECTED: SSL Certificate Verification Failed")
                 print("!" * 80)
                 print("Your IT department is intercepting the connection with a self-signed certificate.")
                 print("To securely resolve this without bypassing your company's security policies:")
@@ -262,7 +263,7 @@ def main():
             raise ValueError("No historical price data found for this instrument in the given date range.")
 
         # c. Process Data
-        print("🧮 Calculating portfolio growth...")
+        print(" Calculating portfolio growth...")
         results_df = calculate_sip(hist_data, amount, freq_type, freq_val)
         
         # d. Print KPIs to console
@@ -273,7 +274,7 @@ def main():
             roi = 0.0
             
         print("\n" + "="*50)
-        print(" 📊 SIMULATION SUMMARY")
+        print("  SIMULATION SUMMARY")
         print("="*50)
         print(f"Total Invested:        €{final_stats['Total_Invested']:,.2f}")
         print(f"Final Portfolio Value: €{final_stats['Portfolio_Value']:,.2f}")
@@ -289,7 +290,7 @@ def main():
     except Exception as e:
         import traceback
         traceback.print_exc()
-        print(f"\n❌ ERROR: {str(e)}")
+        print(f"\n ERROR: {str(e)}")
 
 if __name__ == "__main__":
 
