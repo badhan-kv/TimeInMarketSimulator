@@ -39,7 +39,7 @@ To run this simulator, you will need Python 3.x installed along with the followi
 ## **Installation**
 
 ### **1\. Clone the Repository**
-`git clone [https://github.com/badhan-kv/TimeInMarketSimulator.git](https://github.com/badhan-kv/TimeInMarketSimulator.git)`
+`git clone https://github.com/badhan-kv/TimeInMarketSimulator.git`
 `cd TimeInMarketSimulator`
 
 ### **2\. Install Required Packages**
