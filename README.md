@@ -1,10 +1,10 @@
 ---
-### ⚖️ Copyright & Credit
+### Copyright & Credit
 Copyright (c) 2026 Khushaldas Vasant Badhan
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 **Credit is required** if you use, modify, or redistribute this script.
 
-# **🚀 Time In Market Simulator**
+# **Time In Market Simulator**
 
 An interactive Python tool designed to simulate **Systematic Investment Plans (SIP)** using historical market data. This script helps visualize the power of long-term investing ("Time in the Market") versus trying to predict price movements.
 
