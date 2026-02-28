@@ -9,13 +9,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 An interactive Python tool designed to simulate **Systematic Investment Plans (SIP)** using historical market data. This script helps visualize the power of long-term investing ("Time in the Market") versus trying to predict price movements.
 
 ## **📋 Table of Contents**
-
-* [Features](https://www.google.com/search?q=%23-features)  
-* [Dependencies](https://www.google.com/search?q=%23-dependencies)  
-* [Installation](https://www.google.com/search?q=%23%25EF%25B8%258F-installation)  
-* [Usage](https://www.google.com/search?q=%23-usage)  
-* [License](https://www.google.com/search?q=%23-license)  
-* [Disclaimer](https://www.google.com/search?q=%23-disclaimer)
+* [Features](#features)
+* [Dependencies](#dependencies)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Disclaimer](#disclaimer)
 
 ## **✨ Features**
 
@@ -29,30 +28,29 @@ An interactive Python tool designed to simulate **Systematic Investment Plans (S
 
 To run this simulator, you will need Python 3.x installed along with the following libraries:
 
-* [**yfinance**](https://www.google.com/search?q=https://github.com/ranaroussi/yfinance)**:** Used to fetch historical market price data from Yahoo Finance.  
-* [**pandas**](https://www.google.com/search?q=https://pandas.pydata.org/)**:** Core library for data manipulation and performing time-series SIP calculations.  
-* [**plotly**](https://www.google.com/search?q=https://plotly.com/python/)**:** Powers the high-quality, interactive web-based charts.  
-* [**requests**](https://www.google.com/search?q=https://requests.readthedocs.io/)**:** Handles the API requests needed for the ISIN-to-Ticker resolution.
+* [**yfinance**](https://github.com/ranaroussi/yfinance)**:** Used to fetch historical market price data from Yahoo Finance.  
+* [**pandas**](https://pandas.pydata.org/)**:** Core library for data manipulation and performing time-series SIP calculations.  
+* [**plotly**](https://plotly.com/python/)**:** Powers the high-quality, interactive web-based charts.  
+* [**requests**](https://requests.readthedocs.io/)**:** Handles the API requests needed for the ISIN-to-Ticker resolution.
 
 ## **🛠️ Installation**
 
 ### **1\. Clone the Repository**
-
-git clone \[https://github.com/YOUR\_USERNAME/time-in-market-simulator.git\](https://github.com/YOUR\_USERNAME/time-in-market-simulator.git)  
-cd time-in-market-simulator
+`git clone [https://github.com/badhan-kv/TimeInMarketSimulator.git](https://github.com/badhan-kv/TimeInMarketSimulator.git)`
+`cd TimeInMarketSimulator`
 
 ### **2\. Install Required Packages**
 
 You can install all dependencies at once using the provided requirements file:  
-pip install \-r requirements.txt
+`pip install \-r requirements.txt`
 
 *Alternatively, you can install them individually:*  
-pip install yfinance pandas plotly requests
+`pip install yfinance pandas plotly requests`
 
 ## **🚀 Usage**
 
 Launch the simulator by running the main script and following the terminal prompts:  
-python main.py
+`python main.py`
 
 ### **Example Simulation Input:**
 
@@ -72,5 +70,5 @@ Under this license, you are free to use, modify, and distribute this software, p
 ## **📊 Disclaimer**
 
 *This software is for educational and informational purposes only. It does not constitute financial advice. Past performance of any financial instrument is not a reliable indicator of future results. Always perform your own due diligence or consult with a certified financial advisor before making investment decisions.*  
-**Maintained by:** \[Your Name/Username\]  
-**Project Link:** [https://github.com/YOUR\_USERNAME/time-in-market-simulator](https://www.google.com/search?q=https://github.com/YOUR_USERNAME/time-in-market-simulator)
+
+**Project Link:** [TimeInMarketSimulator]([https://www.google.com/search?q=https://github.com/YOUR_USERNAME/time-in-market-simulator](https://github.com/badhan-kv/TimeInMarketSimulator)
