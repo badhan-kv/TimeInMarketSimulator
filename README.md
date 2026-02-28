@@ -77,4 +77,4 @@ Under this license, you are free to use, modify, and distribute this software, p
 
 *This software is for educational and informational purposes only. It does not constitute financial advice. Past performance of any financial instrument is not a reliable indicator of future results. Always perform your own due diligence or consult with a certified financial advisor before making investment decisions.*  
 
-**Project Link:** [TimeInMarketSimulator]([https://www.google.com/search?q=https://github.com/YOUR_USERNAME/time-in-market-simulator](https://github.com/badhan-kv/TimeInMarketSimulator)
+**Project Link:** [TimeInMarketSimulator](https://github.com/badhan-kv/TimeInMarketSimulator)
