@@ -2,7 +2,6 @@
 ### Copyright
 Copyright (c) 2026 Khushaldas Vasant Badhan
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-**Credit is required** if you use, modify, or redistribute this script.
 
 # **Time In Market Simulator**
 
