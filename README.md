@@ -71,7 +71,7 @@ The script will fetch the data, calculate the growth, and automatically open a n
 ## **License**
 
 This project is licensed under the **MIT License**.  
-Under this license, you are free to use, modify, and distribute this software, provided that the **original copyright notice** and this permission notice are included in all copies or substantial portions of the software. This ensures that credit is attributed to the original author.
+Under this license, you are free to use, modify, and distribute this software, provided that the **original copyright notice** and this permission notice are included in all copies or substantial portions of the software.
 
 <a name="disclaimer"></a>
 ## **Disclaimer**
